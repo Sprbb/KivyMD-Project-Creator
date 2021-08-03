@@ -44,39 +44,39 @@ class MainApp(MDApp):
         self.theme_cls.theme_style = "Dark"
 
     def build(self):
-        FONT_PATH = os.path.join("assets", "fonts/")  # NOQA: N806
+        font_path = os.path.join("assets", "fonts/")  # NOQA: N806
 
         self.theme_cls.font_styles.update(
             {
-                "H1": [FONT_PATH + "RobotoMono-Medium", 96, False, -1.5],
-                "H2": [FONT_PATH + "Overpass-Regular", 60, False, -0.5],
-                "H3": [FONT_PATH + "RobotoMono-Regular", 48, False, 0],
-                "H4": [FONT_PATH + "RobotoMono-SemiBold", 34, False, 0.25],
-                "H5": [FONT_PATH + "Overpass-SemiBold", 24, False, 0],
-                "H6": [FONT_PATH + "RobotoMono-Medium", 20, False, 0.15],
+                "H1": [font_path + "RobotoMono-Medium", 96, False, -1.5],
+                "H2": [font_path + "Overpass-Regular", 60, False, -0.5],
+                "H3": [font_path + "RobotoMono-Regular", 48, False, 0],
+                "H4": [font_path + "RobotoMono-SemiBold", 34, False, 0.25],
+                "H5": [font_path + "Overpass-SemiBold", 24, False, 0],
+                "H6": [font_path + "RobotoMono-Medium", 20, False, 0.15],
                 "Subtitle1": [
-                    FONT_PATH + "Overpass-Regular",
+                    font_path + "Overpass-Regular",
                     16,
                     False,
                     0.15,
                 ],
                 "Subtitle2": [
-                    FONT_PATH + "Overpass-Regular",
+                    font_path + "Overpass-Regular",
                     14,
                     False,
                     0.1,
                 ],
-                "Body1": [FONT_PATH + "Overpass-Regular", 16, False, 0.5],
-                "Body2": [FONT_PATH + "Overpass-Regular", 14, False, 0.25],
-                "Button": [FONT_PATH + "Overpass-Black", 14, True, 1.25],
+                "Body1": [font_path + "Overpass-Regular", 16, False, 0.5],
+                "Body2": [font_path + "Overpass-Regular", 14, False, 0.25],
+                "Button": [font_path + "Overpass-Black", 14, True, 1.25],
                 "Caption": [
-                    FONT_PATH + "RobotoMono-Regular",
+                    font_path + "RobotoMono-Regular",
                     12,
                     False,
                     0.4,
                 ],
                 "Overline": [
-                    FONT_PATH + "RobotoMono-Regular",
+                    font_path + "RobotoMono-Regular",
                     10,
                     True,
                     1.5,
