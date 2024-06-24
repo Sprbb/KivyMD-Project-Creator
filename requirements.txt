@@ -2,5 +2,6 @@ Kivy==2.0.0
 plyer
 kivymd
 utils
+kivymd
 kivymd_extensions.sweetalert
 kaki
